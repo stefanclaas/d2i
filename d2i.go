@@ -31,8 +31,8 @@ func main() {
 	}
 
 	// Define the flags for encoding and decoding.
-	encode := flag.Bool("e", false, "Set to true to encode")
-	decode := flag.Bool("d", false, "Set to true to decode")
+	encode := flag.Bool("e", false, "To encode")
+	decode := flag.Bool("d", false, "To decode")
 	flag.Parse()
 
 	// The file name is the first unchecked argument.
